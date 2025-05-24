@@ -1,0 +1,64 @@
+.ponddataConatiner{
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-left: 0;
+    min-height: 1200px;
+    padding-right: 0;
+    overflow: hidden;
+    padding-top: 70px;
+}
+.overviewContainer{
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(241, 239, 239, 0.35) 0px 8px 15px;
+}
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    animation: scroll-left 13s linear infinite;
+  }
+  
+  .marquee-item {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-extramedium);
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-color);
+  }
+
+  .pndValue{
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-medium);
+    color: var(--secondary-color);
+  }
+  
+  @keyframes scroll-left {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (min-width: 992px) {
+    @keyframes scroll-left {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+  }

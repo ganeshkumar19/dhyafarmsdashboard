@@ -1,0 +1,22 @@
+:root {
+    /* Colors */
+    --primary-color: #A4D6F8;  /* Replace with your primary color */
+    --secondary-color: #0B7ABF; /* Replace with your secondary color */
+    --ternary-color: #9DCEFF;  /* Replace with your ternary color */
+  
+    /* Font Settings */
+    --font-family: "Poppins", sans-serif;  /* Replace with your font family */
+    
+    /* Font Sizes */
+    --font-size-small: 12px;
+    --font-size-regular: 14px;
+    --font-size-medium: 16px;
+    --font-size-extramedium: 18px;
+    --font-size-large: 20px;
+    --font-size-extralarge: 22px;
+  
+    /* Font Weights */
+    --font-weight-regular: 200;
+    --font-weight-medium: 400;
+    --font-weight-bold: 700;
+  }

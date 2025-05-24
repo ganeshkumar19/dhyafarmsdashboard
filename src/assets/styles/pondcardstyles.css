@@ -1,0 +1,79 @@
+.pondContainer{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(241, 239, 239, 0.35) 0px 8px 15px;
+}
+
+
+.pondValueContainer{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.onlineContainer{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.onlineContainer p{
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    color: white;
+}
+
+.pondHeading{
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    color: #000000;
+}
+
+.WeatherDataContainer h4{
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: #000000;
+}
+
+.pondValue{
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    color: #000000;
+}
+
+.lebox{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+
+.smContainer{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+}
+
+
+
+@media (min-width: 576px) {
+    .pondHeading, .pondValue{
+        font-size: var(--font-size-regular);
+       }
+ }
+ 
+ @media (min-width: 768px) {
+    .onlineContainer p{
+        font-size: var(--font-size-regular);
+    }
+    .WeatherDataContainer h4{
+        font-size: var(--font-size-medium);
+    }
+ }
